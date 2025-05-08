@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/larry_boot.mk
+    $(LOCAL_DIR)/omni_boot.mk
 
 COMMON_LUNCH_CHOICES := \
-    larry_boot-user \
-    larry_boot-userdebug \
-    larry_boot-eng
+    omni_larry_boot-user \
+    omni_larry_boot-userdebug \
+    omni_larry_boot-eng
