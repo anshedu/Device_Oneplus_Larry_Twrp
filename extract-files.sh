@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 set -e
 DEVICE={device_info[larry]}
-VENDOR={device_info[oppo]}
+VENDOR={device_info[oneplus]}
 MY_DIR="${{BASH_SOURCE%/*}}"
 if [[ ! -d "${{MY_DIR}}" ]]; then MY_DIR="${{PWD}}"; fi
 ANDROID_ROOT="${{MY_DIR}}/../../.."
